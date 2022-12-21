@@ -1,0 +1,34 @@
+# num_list = [1,2,3,4,5]
+# answer = []
+# cnt1 = 0
+# cnt2 = 0
+# i = 0
+# length = len(num_list)
+
+# while i < length :
+#     print(i)
+#     if num_list[i] % 2 == 0 : 
+#         cnt1 += 1
+#         i += 1
+#     else :
+#         cnt2 += 1    
+#         i += 1
+    
+   
+    
+            
+# answer.insert(0, cnt1)
+# answer.insert(1, cnt2)
+# print(answer)
+
+# 총 5명의 학생이 시험을 보았는데 시험 점수가 60점 이상이면 합격이고 그렇지 않으면 불합격이다. 합격인지 불합격인지 결과를 보여 주시오.
+
+
+#1부터 10까지 더하기
+
+#for와 range 함수를 사용하여 구구단 만들기
+
+# for i in range(2, 10):
+#     for j in range(1, 10):
+#         print(f"{j} X {i} = {i*j}", end = "\t")
+#     print(" ")
