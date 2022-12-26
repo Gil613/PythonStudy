@@ -45,25 +45,50 @@ else :
     print("123")
 """
 
+# 유저 패스워드 체크하기
+# def pwd_check(__value__):
+#     user_pwd = '1234'
+#     if __value__ == user_pwd:
+#         print("로그인 성공")
+#     else : print("비밀번호를 확인해주세요")
 
-num1 = 2
-denum1 = 1
-num2 = 4
-denum2 = 3
-answer = []
-num3 = num1 * num2
-denum3 = 0
-if num1 < num2 : 
-    denum3 = (denum1 * num2) + (denum2 * num1)
+# pwd_check('1234')
+
+
+
+
+
+# num1 = 2
+# denum1 = 1
+# num2 = 4
+# denum2 = 3
+# answer = []
+# num3 = num1 * num2
+# denum3 = 0
+# if num1 < num2 : 
+#     denum3 = (denum1 * num2) + (denum2 * num1)
  
-elif num1 == num2 : 
-    denum3 = denum1 + denum2
+# elif num1 == num2 : 
+#     denum3 = denum1 + denum2
  
 
-for i in range(2, num3+1,2):
-    if denum3 % i == 0 :
-        a = num3 / i
-        b = denum3 / i
-answer.append(b)
-answer.append(a)
-print(answer)
+# for i in range(2, num3+1,2):
+#     if denum3 % i == 0 :
+#         a = num3 / i
+#         b = denum3 / i
+# answer.append(b)
+# answer.append(a)
+# answer
+
+
+
+# 유투버로부터 현재 구독자 수를 입력하면 수익창출이 가능한지 불가능한지 알려주는 프로그램 제작을 요청받았다.
+# 수익창출은 1,000명 이상일 경우 가능하며, "현재 구독자 수를 입력하세요" 라는 문구와 함께 숫자를 입력했을 경우 "수익 창출이 가능합니다!", 
+# "수익 창출이 불가능합니다! 부족한 구독자 수는 00명입니다."  라는 안내 문구가 출력되도록 기획하였다.
+
+def subscriber_check():
+    user_cnt_now = input("현재 구독자 수를 입력해주세요")
+    if user_cnt_now >= 1000 : print("수익 창출이 가능합니다.")
+    else : print(f"수익 창출이 불가능합니다!\n부족한 구독자 수는 {1000 - user_cnt_now}명 입니다.")
+
+subscriber_check()
