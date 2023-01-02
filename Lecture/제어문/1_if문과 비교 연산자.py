@@ -57,7 +57,7 @@ else :
 
 
 
-
+#https://school.programmers.co.kr/learn/courses/30/lessons/120808
 # num1 = 2
 # denum1 = 1
 # num2 = 4
@@ -79,16 +79,52 @@ else :
 # answer.append(b)
 # answer.append(a)
 # answer
+# https://school.programmers.co.kr/learn/courses/30/lessons/120811
+# def sort(array):
+#     sort_array = []
+#     for j in range(len(array)):
+#         i = len(array) - j
+#         for k in range(1,i):
+#             if array[k-1] >= array[k]:
+#                 sort_array = array[k-1]
+#                 array[k-1] = array[k]
+#                 array[k] = sort_array
+
+#     return array
+
+# def solution(array):
+#     array1 = sort(array)
+
+#     print(array1[len(array1) // 2])
+
+# array = [6,3,5,1,2]
+
+# solution(array)
+
+# 가위바위보
+import random
+
+def 가위바위보(value):
+    if value == 1:
+        print("asf")
+    elif value == 2:
+        print("")
+    elif value == 3:
+        print("")
+
+
+while True:
+    choose = ['1. 가위', '2. 바위', '3. 보']
+    choose1 = {1 : '가위', 2 : '바위', 3 : '보'}
+    choose_number = int(input(f"{choose1} 원하는 숫자를 입력해주세요"))
+    computer_choose = random.random
+    print(computer_choose)
+    # if choose_number not in choose1.keys():
+    #     print("다시 입력해주세요")
+    # else:
+    #     가위바위보(choose_number)
 
 
 
-# 유투버로부터 현재 구독자 수를 입력하면 수익창출이 가능한지 불가능한지 알려주는 프로그램 제작을 요청받았다.
-# 수익창출은 1,000명 이상일 경우 가능하며, "현재 구독자 수를 입력하세요" 라는 문구와 함께 숫자를 입력했을 경우 "수익 창출이 가능합니다!", 
-# "수익 창출이 불가능합니다! 부족한 구독자 수는 00명입니다."  라는 안내 문구가 출력되도록 기획하였다.
 
-def subscriber_check():
-    user_cnt_now = input("현재 구독자 수를 입력해주세요")
-    if user_cnt_now >= 1000 : print("수익 창출이 가능합니다.")
-    else : print(f"수익 창출이 불가능합니다!\n부족한 구독자 수는 {1000 - user_cnt_now}명 입니다.")
 
-subscriber_check()

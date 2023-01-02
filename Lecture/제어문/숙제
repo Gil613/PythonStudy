@@ -1,0 +1,19 @@
+# 총 5명의 학생이 시험을 보았는데 시험 점수가 60점 이상이면 합격이고 그렇지 않으면 불합격이다. 합격인지 불합격인지 결과를 보여 주시오.
+
+#1부터 10까지 더하기
+
+#for와 range 함수를 사용하여 구구단 만들기
+
+https://school.programmers.co.kr/learn/courses/30/lessons/120807 숫자비교하기
+정수 num1과 num2가 매개변수로 주어집니다. 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성해주세요.
+
+https://school.programmers.co.kr/learn/courses/30/lessons/120808 분수의 덧셈
+첫 번째 분수의 분자와 분모를 뜻하는 denum1, num1, 두 번째 분수의 분자와 분모를 뜻하는 denum2, num2가 매개변수로 주어집니다. 
+두 분수를 더한 값을 기약 분수로 나타냈을 때 분자와 분모를 순서대로 담은 배열을 return 하도록 solution 함수를 완성해보세요.
+
+https://school.programmers.co.kr/learn/courses/30/lessons/120811 중앙 값 구하기
+중앙값은 어떤 주어진 값들을 크기의 순서대로 정렬했을 때 가장 중앙에 위치하는 값을 의미합니다. 예를 들어 1, 2, 7, 10, 11의 중앙값은 7입니다. 
+정수 배열 array가 매개변수로 주어질 때, 중앙값을 return 하도록 solution 함수를 완성해보세요.
+
+# 배열의 평균 값 https://school.programmers.co.kr/learn/courses/30/lessons/120817
+
