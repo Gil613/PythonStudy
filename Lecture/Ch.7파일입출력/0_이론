@@ -1,0 +1,41 @@
+1. 파일 입출력을 사용하는 이유
+#기존 input(), print()로 하는 입출력과는 다르다.
+ - input()
+ - print()
+ - 파일로부터 데이터를 읽어와서 프로그램에 사용하기 위해
+ - 프로그램에서 만든 데이터를 파일형태로 저장하기 위해
+
+2. 파일 열기모드
+ 1.파일열기 -> 2.파일작업 -> 3.파일닫기
+ - 쓰기모드 write 
+    파일객체 = open("파일이름", "파일모드") == ("test.txt","w") -> 덮어쓰기
+    파일객체.write(데이터)
+    파일객체.close()
+
+ - 추가모드 append 
+    파일객체 = open("파일이름", "파일모드") == ("test.txt","a") -> 이어쓰기
+    파일객체.write(데이터)
+    파일객체.close()
+
+ - 읽기모드 read  
+    파일객체 = open("파일이름", "파일모드") == ("test.txt","r")
+    변수 = 파일객체.read()
+    파일객체.close()
+
+3. pickle모듈
+ - 파일에 파이썬 객체를 저장하기 위해 사용한다.
+ - 내장모듈
+
+4. with구문
+ - file = open("text.txt","r")
+   data = file.read()
+   file.close()
+
+
+ - with open("text.txt","r") as file: -> file.close()를 자동으로 호출해준다.
+        data = file.read()
+
+5. csv파일 입출력
+ csv(comma-separated values)란?
+ - 데이터가 , 로 구분된 텍스트 파일 형식
+ 
